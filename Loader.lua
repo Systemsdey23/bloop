@@ -98,15 +98,6 @@ MiscTab:AddButton({
         })
   	end    
 })"))()
-        OrionLib:MakeNotification({
-            Name = "BloopUI",
-            Content = "FE Animation GUI (R6) loaded",
-            Image = "rbxassetid://4483345998",
-            Time = 5,
-            NotifSound:Play()
-        })
-  	end    
-})
 
 PlayerTab:AddSlider({
 	Name = "WalkSpeed",
