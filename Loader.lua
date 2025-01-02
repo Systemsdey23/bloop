@@ -97,7 +97,7 @@ MiscTab:AddButton({
             NotifSound:Play()
         })
   	end    
-})"))()
+})
 
 PlayerTab:AddSlider({
 	Name = "WalkSpeed",
