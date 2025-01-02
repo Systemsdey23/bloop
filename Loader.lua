@@ -85,6 +85,29 @@ MiscTab:AddButton({
   	end    
 })
 
+MiscTab:AddButton({
+	Name = "Universal Hitbox Expander, Aimbot",
+	Callback = function()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt"))()
+        OrionLib:MakeNotification({
+            Name = "BloopUI",
+            Content = "Universal Hitbox Expander, Aimbot loaded",
+            Image = "rbxassetid://4483345998",
+            Time = 5,
+            NotifSound:Play()
+        })
+  	end    
+})"))()
+        OrionLib:MakeNotification({
+            Name = "BloopUI",
+            Content = "FE Animation GUI (R6) loaded",
+            Image = "rbxassetid://4483345998",
+            Time = 5,
+            NotifSound:Play()
+        })
+  	end    
+})
+
 PlayerTab:AddSlider({
 	Name = "WalkSpeed",
 	Min = 0,
